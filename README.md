@@ -1,4 +1,6 @@
-
+````md
+# MirrorTrail
+**Follow the signal. Map the surface. Reveal what is exposed.**
 
 ## About
 
@@ -37,3 +39,42 @@ You will also need a `targets.txt` file with one target per line:
 example.com
 example.org
 example.net
+````
+
+## Usage
+
+1. Save your target domains in `targets.txt`
+2. Make the script executable
+3. Run it from the same directory
+
+```bash
+chmod +x mirrortrail.sh
+./mirrortrail.sh
+```
+
+## Output
+
+MirrorTrail creates a timestamped results folder such as:
+
+```txt
+./recon_results_2026-04-16/
+```
+
+Inside, you will find:
+
+* `subfinder.txt`
+* `amass.txt`
+* `all_subs.txt`
+* `live_hosts.txt`
+* `nuclei_results.txt`
+
+## Ethical Disclaimer
+
+This tool is intended **strictly for authorized security testing, approved bug bounty programs, internal assessments, and environments where you have explicit permission to test**.
+
+Do **not** use MirrorTrail against systems you do not own or do not have clear authorization to assess. Unauthorized scanning, recon, or probing may be illegal and may disrupt services.
+
+Use responsibly. Follow all applicable laws, policies, and rules of engagement.
+
+```
+```
