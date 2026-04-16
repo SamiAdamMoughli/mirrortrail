@@ -38,6 +38,7 @@ You will also need a `targets.txt` file with one target per line:
 example.com
 example.org
 example.net
+```
 
 ## Usage
 
@@ -73,6 +74,3 @@ This tool is intended **strictly for authorized security testing, approved bug b
 Do **not** use MirrorTrail against systems you do not own or do not have clear authorization to assess. Unauthorized scanning, recon, or probing may be illegal and may disrupt services.
 
 Use responsibly. Follow all applicable laws, policies, and rules of engagement.
-
-```
-```
