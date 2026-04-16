@@ -1,4 +1,3 @@
-````md
 # MirrorTrail
 **Follow the signal. Map the surface. Reveal what is exposed.**
 
@@ -39,7 +38,6 @@ You will also need a `targets.txt` file with one target per line:
 example.com
 example.org
 example.net
-````
 
 ## Usage
 
