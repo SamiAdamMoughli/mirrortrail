@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # --- Setup & Variables ---
-TARGET_FILE="subdomains.txt"
+TARGET_FILE="example.txt"
 OUTPUT_DIR="./recon_results_$(date +%F)"
 mkdir -p "$OUTPUT_DIR"
 
