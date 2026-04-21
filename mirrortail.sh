@@ -16,7 +16,7 @@ echo "[+] Starting recon on $(wc -l < "$TARGET_FILE") targets..."
 # --- 1. Subdomain Gathering (Passive & Fast) ---
 echo "[+] Running Subfinder and Amass..."
 subfinder -dL "$TARGET_FILE" -silent -o "$OUTPUT_DIR/subfinder.txt"
-amass enum -passive -df "$TARGET_FILE" -o "$OUTPUT_DIR/amass.txt"
+amass enum -passive -df "$TARGET_FILE" -o "$OUTPUT_DIR/amass.txt" 2>/dev/null"
 
 # Combine and deduplicate
 cat "$OUTPUT_DIR/subfinder.txt" "$OUTPUT_DIR/amass.txt" | sort -u > "$OUTPUT_DIR/all_subs.txt"
